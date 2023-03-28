@@ -3,6 +3,17 @@
   "displayName": "Darcula Theme for Python",
   "description": "",
   "version": "0.0.1",
+  "publisher": "JVMartyns",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JVMartyns/darcula_theme_for_python"
+  },
+  "keywords": [
+    "theme",
+    "darcula",
+    "dark",
+    "python"
+  ],
   "engines": {
     "vscode": "^1.76.0"
   },
