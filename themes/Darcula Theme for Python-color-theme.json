@@ -2,7 +2,7 @@
 	"name": "Darcula Theme for Python",
 	"type": "dark",
 	"colors": {
-		"list.dropBackground": "#474B4D",
+		"list.dropBackground": "#2B2B2B",
 		"statusBar.background" : "#2B2B2B",
 		"editor.background": "#2B2B2B",
 		"editorInlayHint.background": "#00000000",
@@ -285,7 +285,6 @@
 				"variable.other.object.property",
 				"support.class.dom",
 				"variable.other.property",
-				"meta.function-call",
 				"entity.name.type.module",
 				"variable.parameter",
 				"variable.other.readwrite.alias",
@@ -417,19 +416,9 @@
 			}
 		},
 		{
-			"scope": "entity.name.type",
-			"settings": {
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"name": "Types declaration and references",
 			"scope": [
 				"meta.return-type",
-				"support.class",
-				"support.type",
-				"entity.name.type",
-				"entity.name.class",
 				"storage.type.cs",
 				"storage.type.generic.cs",
 				"storage.type.modifier.cs",
@@ -460,12 +449,20 @@
 			"scope": [
 				"support.class",
 				"entity.name.class",
-				"support.type",
-				"entity.name.type"
+				"entity.name.type.class.python"
 			],
 			"settings": {
 				"foreground": "#E6DA00", 
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"support.type",
+				"entity.name.type"
+			],
+			"settings": {
+				"foreground": "#E6DA00"
 			}
 		},
 		{
